@@ -1,0 +1,4 @@
+v 4
+file / "/home/noah/dt2/eclipse/dt2_intro/bin2hex.vhd" "f23862c2d43ff604ce18632364d79a5e9173fa57" "20170227145547.588":
+  entity bin2hex at 1( 0) + 0 on 13;
+  architecture logic of bin2hex at 19( 328) + 0 on 14;
