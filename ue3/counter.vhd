@@ -30,7 +30,7 @@ begin
 		
 	end process p_ctr;
 	
-	ctrl <= '1' when count >= 10 else '0';
+	ctrl <= '1' when count >= 10 and count <= 13  else '0';
 
 	cnt <= std_ulogic_vector( to_unsigned(count,4) );
 
