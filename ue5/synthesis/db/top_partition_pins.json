@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hex_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_n[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_n[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_n[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "btn_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
