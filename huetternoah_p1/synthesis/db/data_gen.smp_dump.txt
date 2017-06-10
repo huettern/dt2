@@ -1,0 +1,8 @@
+
+State Machine - |data_gen|c_state
+Name c_state.down c_state.stop c_state.up c_state.inc c_state.idle 
+c_state.idle 0 0 0 0 0 
+c_state.inc 0 0 0 1 1 
+c_state.up 0 0 1 0 1 
+c_state.stop 0 1 0 0 1 
+c_state.down 1 0 0 0 1 
