@@ -1,0 +1,17 @@
+## -----------------------------------------------------------------------------
+## Filename: set_design_files.qsf
+## Author  : stefan.brantschen@fhnw.ch
+## Date    : 27.05.2011
+## Content : Design Files Settings
+## -----------------------------------------------------------------------------
+
+## Design Files
+## -----------------------------------------------------------------------------
+set_global_assignment -name SEARCH_PATH "./../.."
+
+set_global_assignment -name VHDL_FILE dice_package.vhd
+set_global_assignment -name VHDL_FILE control_game_fsm.vhd
+set_global_assignment -name VHDL_FILE decelerate_rtl.vhd
+set_global_assignment -name VHDL_FILE rotate_rtl.vhd
+set_global_assignment -name VHDL_FILE randomize_rtl.vhd
+set_global_assignment -name VHDL_FILE dice_top.vhd

@@ -1,0 +1,15 @@
+## -----------------------------------------------------------------------------
+## Filename: set_location_assignments.qsf
+## Author  : stefan.brantschen@fhnw.ch
+## Date    : 27.05.2011
+## -----------------------------------------------------------------------------
+set_location_assignment PIN_AA14 -to reset_n
+set_location_assignment PIN_AF14 -to clock
+set_location_assignment PIN_Y16 -to start_n
+set_location_assignment PIN_AH28 -to hex_n[6]
+set_location_assignment PIN_AG28 -to hex_n[5]
+set_location_assignment PIN_AF28 -to hex_n[4]
+set_location_assignment PIN_AG27 -to hex_n[3]
+set_location_assignment PIN_AE28 -to hex_n[2]
+set_location_assignment PIN_AE27 -to hex_n[1]
+set_location_assignment PIN_AE26 -to hex_n[0]

@@ -1,0 +1,20 @@
+## -----------------------------------------------------------------------------
+## Filename: dice_top.qsf
+## Author  : stefan.brantschen@fhnw.ch
+## Date    : 27.05.2011
+## Content : Quartus Settings Masterfile
+## -----------------------------------------------------------------------------
+
+## Global Assignments
+## -----------------------------------------------------------------------------
+source ./scripts/set_global_assignments.qsf
+
+
+## Location Assignments
+## -----------------------------------------------------------------------------
+source ./scripts/set_location_assignments.qsf
+
+
+## Design Files
+## -----------------------------------------------------------------------------
+source ./scripts/set_design_files.qsf
